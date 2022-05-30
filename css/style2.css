@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#year {
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(230, 198, 233);
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(251, 0, 222);
+    color: black;
+}
